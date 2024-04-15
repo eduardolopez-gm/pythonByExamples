@@ -4,3 +4,5 @@ decimal places. Multiply
 this number by two and
 display the answer.  """
 
+number = float(input('Enter a float number :'))
+print('Answer -> ', number*2)
