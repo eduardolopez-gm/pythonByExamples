@@ -27,7 +27,7 @@ def addition_function():
     num1 = random.randint(5,20)
     num2 = random.randint(5,20)
     real_answer = num1 + num2
-    user_answer = int(input('Enter the solution to -> ' + str(num1) + '+' + str(num2) + '= '))
+    user_answer = int(input('Enter the solution to -> ' + str(num1) + '+' + str(num2) + ' = '))
     return real_answer, user_answer
 
 def subtraction_function():
@@ -41,7 +41,7 @@ def validate_result(real_answer, user_answer):
     if real_answer == user_answer:
         print('Correct')
     else:
-        print('Incorrect, the answer is ->'+str(real_answer))
+        print('Incorrect, the answer is -> '+str(real_answer))
 
 def main():
     print('Welcome to this modular program')
@@ -55,7 +55,5 @@ def main():
     else:
         real, user = subtraction_function()
     validate_result(real, user)
-
-
 
 main()
